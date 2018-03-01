@@ -1,7 +1,7 @@
 {
   "name": "alessandrotesoro/wp-notices",
   "license": "GPL-3.0-or-later",
-  "description": "A toolkit for developers to create administration options panels for WordPress powered by Vuejs",
+  "description": "An helper library to create persistent and dismissible WordPress admin notices.",
   "homepage": "https://github.com/alessandrotesoro/wp-notices/",
   "authors": [
     {
