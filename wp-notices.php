@@ -116,7 +116,7 @@ final class WP_Notice {
 			$class = array(
 				'notice',
 				'notice-' . $notice['type'],
-				'is-dismissible',
+				$notice['dismissible'] ? 'is-dismissible' : false,
 				$notice['class'],
 			);
 
@@ -146,6 +146,7 @@ final class WP_Notice {
 			'error',
 			'warning',
 			'success',
+			'info',
 		);
 		return apply_filters( 'tdp_notice_types', $types );
 	}
@@ -157,9 +158,10 @@ final class WP_Notice {
 	 */
 	private function default_args() {
 		$args = array(
-			'scope' => 'global',
-			'cap'   => '',
-			'class' => '',
+			'scope'       => 'global',
+			'dismissible' => true,
+			'cap'         => 'manage_options',
+			'class'       => '',
 		);
 		return apply_filters( 'tdp_default_args', $args );
 	}
