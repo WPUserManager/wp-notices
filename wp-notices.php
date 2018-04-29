@@ -225,9 +225,6 @@ final class WP_Notice {
 	 */
 	public function dismiss_notice( $id ) {
 		$notice = self::$instance->get_notice( self::$instance->get_id( $id ) );
-		if ( false === $notice ) {
-			return false;
-		}
 		if ( self::$instance->is_dismissed( $id ) ) {
 			return false;
 		}
