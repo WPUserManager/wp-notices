@@ -15,7 +15,7 @@
  * GNU General Public License for more details.
  *
  * @author     Alessandro Tesoro
- * @version    1.0.0
+ * @version    1.0.2
  * @copyright  (c) 2018 Alessandro Tesoro
  * @license    http://www.gnu.org/licenses/gpl-3.0.txt GNU LESSER GENERAL PUBLIC LICENSE
  * @package    wp-notices
@@ -43,7 +43,7 @@ final class WP_Notice {
 	 *
 	 * @var string
 	 */
-	public $version = '1.0.0';
+	public $version = '1.0.2';
 
 	/**
 	 * List of registered notices.
