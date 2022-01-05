@@ -1,12 +1,12 @@
 {
-  "name": "alessandrotesoro/wp-notices",
+  "name": "wp-user-manager/wp-notices",
   "license": "GPL-3.0-or-later",
   "description": "An helper library to create persistent and dismissible WordPress admin notices.",
-  "homepage": "https://github.com/alessandrotesoro/wp-notices/",
+  "homepage": "https://github.com/WPUserManager/wp-notices/",
   "authors": [
     {
-      "name": "Alessandro Tesoro",
-      "homepage": "http://alessandrotesoro.me"
+      "name": "WP User Manager",
+      "homepage": "https://wpusermanager.com"
     }
   ],
   "keywords": [
@@ -14,7 +14,7 @@
     "notices"
   ],
   "support": {
-    "issues": "https://github.com/alessandrotesoro/wp-notices/issues/"
+    "issues": "https://github.com/WPUserManager/wp-notices/issues/"
   },
   "require": {
     "php": ">=5.3.2",
